@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/map_menu"
+        android:icon="@drawable/ic_baseline_map_24"
+        app:iconTint="@color/teal_200"
+        android:title="@string/maps_location"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="@string/setting"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        app:iconTint="@android:color/holo_red_light"
+        android:title="@string/logout"
+        app:showAsAction="ifRoom" />
+</menu>
