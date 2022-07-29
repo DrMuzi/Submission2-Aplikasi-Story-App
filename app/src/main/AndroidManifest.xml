@@ -49,7 +49,7 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyD3BhNRjg3esJ_654FFDBRRo7KfGHa-Ui0" />
+            android:value="-" />
 
         <activity
             android:name=".ui.OnBoardingActivity"
